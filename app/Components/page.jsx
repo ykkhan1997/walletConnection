@@ -67,7 +67,6 @@ const WalletConnection = () => {
               }
             });
           }
-          accountChanged();
           if (window.ethereum === null) {
             alert(FailMessage);
           } else {
@@ -77,6 +76,7 @@ const WalletConnection = () => {
               window.location.reload();
             }
           }
+          accountChanged();
         }
       }, []);
 
