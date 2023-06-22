@@ -1,0 +1,3 @@
+Packages
+ethers@5.7.2
+npm i web3modal
